@@ -1,0 +1,7 @@
+/node_modules
+/wrangler.toml
+/package.json
+/package-lock.json
+/tsconfig.json
+/README.md
+/.vscode
