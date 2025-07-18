@@ -2,7 +2,7 @@ name = "imgbed"
 compatibility_date = "2024-05-01"
 
 [site]
-directory = "."
+bucket = "."
 
 exclude = [
   "node_modules/**",   # 排除所有依赖项（这是导致错误的根源）
