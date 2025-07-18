@@ -16,3 +16,19 @@ exclude = [
   ".vscode/**",        # 排除 VSCode 编辑器配置
   "*.log"              # 排除日志文件
 ]
+
+
+[[kv_namespaces]]
+# 这是在 Worker 代码中使用的变量名
+binding = "img_url"
+# 这是您在 Cloudflare 仪表板中创建的 KV 命名空间的名称
+# Wrangler 会自动查找并使用其 ID
+id = "img_url"
+ 
+ 
+# 2. 绑定 R2 存储桶
+[[r2_buckets]]
+# 这是在 Worker 代码中使用的变量名
+binding = "img_r2"
+# 这是您在 Cloudflare 仪表板中创建的 R2 存储桶的名称
+bucket_name = "imgbed"
